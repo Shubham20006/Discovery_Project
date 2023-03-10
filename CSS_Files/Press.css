@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+
+}
+
+.header {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-image: url("https://discoverylandco.com/imager/images/889/DJI_0161-copy_2cbd80a0345be3b5a0b7649a1a2d057f.jpg");
+    background-position: 100%;
+    background-size: 100%;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+
+.contentbox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    width: 40%;
+    height: 10vh;
+}
+
+.contentbox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    padding-right: 30px;
+    color: white;
+}
+
+.A1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    height: 10vh;
+    padding: 10px;
+}
+
+.A1 img {
+    background-color: white;
+    border-radius: 100%;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.A2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10px;
+    width: 70%;
+    height: 10vh;
+    padding: 10px;
+
+
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+#AA {
+    font-size: 30px;
+}
+
+#AAA {
+    font-size: 10px;
+}
+
+.cb1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headercontent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 50px;
+    color: white;
+    height: 40vh;
+    width: 50%;
+}
+
+#id6 img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+
+}
+
+.bodybox {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    width: 30vw;
+    height: 15vh;
+}
+
+.bodybox2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 120vh;
+    width: 100vw;
+    padding: 40px 50px 5px 50px;
+}
+
+.carousel {
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+}
+
+img,
+.carousel-item,
+.carousel-inner { 
+    width: 100%;
+    height: 100%;
+}
+
+.bodybox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    right: 80px;
+    top: 80px;
+    height: 80%;
+    width: 40%;
+    padding: 30px;
+    background-color: white; 
+}
+.news{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5%;
+    width: 40%;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30%;
+    width: 76%;
+    font-size: 28px;
+}
+.desc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18px;
+    color: darkslategrey;
+    padding-top: 30px;
+    height: 50%;
+    width: 100%;
+}
+.articleButton{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(112, 109, 109);
+    height: 10%;
+    width: 50%;
+    cursor: pointer;
+}
+
+
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+#button1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 48%;
+}
+
+#button2 {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+}
+
+button p {
+    display: inline;
+    font-size: 25px;
+    align-items: center;
+}
+
+button {
+    border: 5px solid white;
+}
+
+.footer1 {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    padding: 20px;
+    background-color: rgb(34, 48, 34);
+}
+
+.footercontent1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 25vh;
+    width: 25vw;
+
+}
+
+.footercontent1 img {
+    display: block;
+    background-color: white;
+    border-radius: 100%;
+    width: 25%;
+    height: 50%;
+    cursor: pointer;
+
+}
+
+.footercontent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 60%;
+    color: white;
+    cursor: pointer;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
